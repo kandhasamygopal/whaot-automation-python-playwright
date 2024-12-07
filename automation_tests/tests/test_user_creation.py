@@ -6,7 +6,7 @@ from automation_tests.page_objects.registration_page import RegistrationPage
 import os
 import webbrowser
 
-
+#new user creation
 def get_user_data():
     file_path = os.path.join(os.path.dirname(__file__), '..', 'data', 'user_data.csv')
     print(f"Looking for file at: {os.path.abspath(file_path)}")
